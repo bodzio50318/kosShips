@@ -2,7 +2,7 @@ ship = MoonEye
 version = 1.10.1
 description = 
 type = VAB
-size = 3.03496075,28.8961105,3.3823247
+size = 3.03496075,28.7961121,3.3823247
 steamPublishedFileId = 0
 persistentId = 742490793
 rot = 0,0,0,0
@@ -319,8 +319,8 @@ PART
 			temperature = 300
 			fillable = True
 			techRequired = 
-			amount = 199.99999999999986
-			maxAmount = 199.99999999999986
+			amount = 199.99999999999983
+			maxAmount = 199.99999999999983
 		}
 		TANK
 		{
@@ -333,8 +333,8 @@ PART
 			temperature = 300
 			fillable = True
 			techRequired = 
-			amount = 1.999999999999998
-			maxAmount = 1.999999999999998
+			amount = 1.9999999999999976
+			maxAmount = 1.9999999999999976
 		}
 		UPGRADESAPPLIED
 		{
@@ -2100,8 +2100,8 @@ PART
 	RESOURCE
 	{
 		name = ElectricCharge
-		amount = 199.99999999999986
-		maxAmount = 199.99999999999986
+		amount = 199.99999999999983
+		maxAmount = 199.99999999999983
 		flowState = True
 		isTweakable = True
 		hideFlow = False
@@ -2111,8 +2111,8 @@ PART
 	RESOURCE
 	{
 		name = HTP
-		amount = 1.999999999999998
-		maxAmount = 1.999999999999998
+		amount = 1.9999999999999976
+		maxAmount = 1.9999999999999976
 		flowState = True
 		isTweakable = True
 		hideFlow = False
@@ -3168,12 +3168,12 @@ PART
 	sepI = 0
 	attm = 0
 	sameVesselCollision = False
-	modCost = 54.8084526
+	modCost = 24.9786606
 	modMass = -3.73091865
 	modSize = 0,0,0
 	link = KzResizableFairingBaseRing_4292070052
 	attN = top,proceduralStackDecoupler_4293570616_0|0.0500000007|0_0|1|0_0|0.0500000007|0_0|1|0
-	attN = bottom,KzResizableFairingBaseRing_4292070052_0|-0.0580000021|0_0|-1|0_0|-0.440101624|5.96046448E-08_0|-1|0
+	attN = bottom,KzResizableFairingBaseRing_4292070052_0|-0.0580000021|0_0|-1|0_0|-0.295598984|2.98023224E-08_0|-1|0
 	EVENTS
 	{
 	}
@@ -3348,7 +3348,7 @@ PART
 		EngineIgnited = False
 		engineShutdown = False
 		currentThrottle = 0
-		thrustPercentage = 100
+		thrustPercentage = 10.5
 		manuallyOverridden = False
 		includeinDVCalcs = False
 		stagingEnabled = True
@@ -3409,12 +3409,12 @@ PART
 		name = ProceduralSRB
 		isEnabled = True
 		selectedBellName = Surface
-		bellScale = 0.360131353
+		bellScale = 0.223938569
 		isMirrored = False
-		thrust = 194.541885
-		burnTimeME = 0.38666594
+		thrust = 75.2227173
+		burnTimeME = 1
 		thrustDeflection = 0
-		heatProduction = 117.777725
+		heatProduction = 344.827118
 		stagingEnabled = True
 		EVENTS
 		{
@@ -4748,7 +4748,7 @@ PART
 	part = KzResizableFairingBaseRing_4292070052
 	partName = Part
 	persistentId = 1347523656
-	pos = 0.104820251,27.7482281,-0.356192529
+	pos = 0.104820251,27.8167305,-0.356192559
 	attPos = 0,0,0
 	attPos0 = 0,-0.716100693,5.96046448E-08
 	rot = 0,0,0,1
@@ -4812,7 +4812,7 @@ PART
 		autoShape = True
 		manualMaxSize = 1.38000011
 		manualCylStart = 0
-		manualCylEnd = 0.876000047
+		manualCylEnd = 0.776000023
 		stagingEnabled = True
 		EVENTS
 		{
@@ -5074,7 +5074,7 @@ PART
 	part = proceduralAvionics_4292069966
 	partName = Part
 	persistentId = 924847810
-	pos = 0.104820251,27.6312275,-0.356192529
+	pos = 0.104820251,27.6997299,-0.356192559
 	attPos = 0,0,0
 	attPos0 = 0,-0.100000381,0
 	rot = 0,0,0,1
@@ -5124,7 +5124,7 @@ PART
 		name = ProceduralPart
 		isEnabled = True
 		tempColliderCenter = (0, 0, 0)
-		tempColliderSize = (1.50000155, 0.252998352, 1.50000155)
+		tempColliderSize = (1.50000155, 0.253002167, 1.50000155)
 		forceLegacyTextures = False
 		textureSet = GreySide
 		capTextureIndex = 1
@@ -6587,7 +6587,7 @@ PART
 	part = RO-RFTank-Integral_4292069798
 	partName = Part
 	persistentId = 3117244025
-	pos = 0.104820251,26.689724,-0.356192529
+	pos = 0.104820251,26.7582264,-0.356192559
 	attPos = 0,0,0
 	attPos0 = 0,-0.399999619,0
 	rot = 0,0,0,1
@@ -6982,7 +6982,7 @@ PART
 	part = RO-RFTank-Integral_4292069714
 	partName = Part
 	persistentId = 63299136
-	pos = 0.104820251,25.7257214,-0.356192529
+	pos = 0.104820251,25.7942238,-0.356192559
 	attPos = 0,0,0
 	attPos0 = 0,-0.799999237,0
 	rot = 0,0,0,1
@@ -7400,7 +7400,7 @@ PART
 	part = ROE-AJ10Mid_4291128672
 	partName = Part
 	persistentId = 2814518161
-	pos = 0.104820251,25.125721,-0.356192529
+	pos = 0.104820251,25.1942234,-0.356192559
 	attPos = 0,0.324998856,0
 	attPos0 = 0,-0.924999237,0
 	rot = 0,0,0,1
@@ -7800,7 +7800,7 @@ PART
 	part = KzInterstageAdapter2_4291015180
 	partName = Part
 	persistentId = 3605285423
-	pos = 0.104820251,23.2807198,-0.356192529
+	pos = 0.104820251,23.3492241,-0.356192559
 	attPos = 0,0,0
 	attPos0 = 0,-3.14500046,0
 	rot = 0,0,0,1
@@ -8147,7 +8147,7 @@ PART
 	part = proceduralAvionics_4291015094
 	partName = Part
 	persistentId = 1444747874
-	pos = 0.104820251,23.2307205,-0.356192529
+	pos = 0.104820251,23.2992249,-0.356192559
 	attPos = 0,0,0
 	attPos0 = 0,-0.0499992371,0
 	rot = 0,0,0,1
@@ -9660,7 +9660,7 @@ PART
 	part = RO-RFTank-Integral_4291014926
 	partName = Part
 	persistentId = 1339574190
-	pos = 0.104820251,21.830719,-0.356192529
+	pos = 0.104820251,21.8992233,-0.356192559
 	attPos = 0,0,0
 	attPos0 = 0,-0.475000381,0
 	rot = 0,0,0,1
@@ -10055,7 +10055,7 @@ PART
 	part = RO-RFTank-Integral_4291014842
 	partName = Part
 	persistentId = 2741730222
-	pos = 0.104820251,20.080719,-0.356192529
+	pos = 0.104820251,20.1492233,-0.356192559
 	attPos = 0,0,0
 	attPos0 = 0,-0.75,0
 	rot = 0,0,0,1
@@ -10448,7 +10448,7 @@ PART
 	part = ROE-LR91_4291014758
 	partName = Part
 	persistentId = 2870376286
-	pos = 0.104820251,18.7087364,-0.356192529
+	pos = 0.104820251,18.7772408,-0.356192559
 	attPos = 0,0,0
 	attPos0 = 0,-1.37198353,0
 	rot = 0,0,0,1
@@ -11027,7 +11027,7 @@ PART
 	part = KzInterstageAdapter2_4291014044
 	partName = Part
 	persistentId = 4046617539
-	pos = 0.104820251,16.542017,-0.356192529
+	pos = 0.104820251,16.6105194,-0.356192559
 	attPos = 0,0,0
 	attPos0 = 0,-3.46671963,0
 	rot = 0,0,0,1
@@ -11040,7 +11040,7 @@ PART
 	istg = 7
 	resPri = 0
 	dstg = 11
-	sidx = 1
+	sidx = 2
 	sqor = 7
 	sepI = 7
 	attm = 0
@@ -11374,7 +11374,7 @@ PART
 	part = proceduralAvionics_4291013958
 	partName = Part
 	persistentId = 3411503928
-	pos = 0.104820251,16.4805164,-0.356192529
+	pos = 0.104820251,16.5490189,-0.356192559
 	attPos = 0,0,0
 	attPos0 = 0,-0.100000381,0
 	rot = 0,0,0,1
@@ -11668,8 +11668,8 @@ PART
 			temperature = 300
 			fillable = True
 			techRequired = 
-			amount = 99.999999999999815
-			maxAmount = 99.999999999999815
+			amount = 99.999999999999801
+			maxAmount = 99.999999999999801
 		}
 		UPGRADESAPPLIED
 		{
@@ -12873,8 +12873,8 @@ PART
 	RESOURCE
 	{
 		name = ElectricCharge
-		amount = 99.999999999999815
-		maxAmount = 99.999999999999815
+		amount = 99.999999999999801
+		maxAmount = 99.999999999999801
 		flowState = True
 		isTweakable = True
 		hideFlow = False
@@ -12887,7 +12887,7 @@ PART
 	part = RO-RFTank-Integral_4291013790
 	partName = Part
 	persistentId = 1012089788
-	pos = 0.104820251,10.4190178,-0.356192529
+	pos = 0.104820251,10.4875202,-0.356192559
 	attPos = 0,0,0
 	attPos0 = 0,-1.44999981,0
 	rot = 0,0,0,1
@@ -13282,7 +13282,7 @@ PART
 	part = ROE-LR87_4291013706
 	partName = Part
 	persistentId = 687247990
-	pos = 0.104820251,2.8003006,-0.356192529
+	pos = 0.104820251,2.86880302,-0.356192559
 	attPos = 0,0,0
 	attPos0 = 0,-2.96872044,0
 	rot = 0,0,0,1
@@ -13801,7 +13801,7 @@ PART
 	part = launchClamp1_4291011118
 	partName = Part
 	persistentId = 1960923004
-	pos = 0.104820043,3.83988953,-2.66146398
+	pos = 0.104820043,3.90839195,-2.66146398
 	attPos = 0,0,0
 	attPos0 = -2.0359164E-07,-6.57912731,-2.30527139
 	rot = 0,-4.49868587E-08,0,-1
@@ -13849,8 +13849,8 @@ PART
 	{
 		name = LaunchClamp
 		isEnabled = True
-		scaleFactor = 1.71824157
-		height = 4.33082199
+		scaleFactor = 1.74541891
+		height = 4.39932251
 		stagingEnabled = True
 		towerRot = 0,1,0,8.86982434E-08
 		EVENTS
@@ -14046,7 +14046,7 @@ PART
 	part = launchClamp1_4291010962
 	partName = Part
 	persistentId = 554389926
-	pos = 0.104820654,3.83988953,1.9490788
+	pos = 0.104820654,3.90839195,1.9490788
 	attPos = 0,0,0
 	attPos0 = 4.05124865E-07,-6.57912731,2.30527139
 	rot = 0,-1,0,8.86982434E-08
@@ -14094,8 +14094,8 @@ PART
 	{
 		name = LaunchClamp
 		isEnabled = True
-		scaleFactor = 1.71824157
-		height = 4.33082199
+		scaleFactor = 1.74541891
+		height = 4.39932251
 		stagingEnabled = True
 		towerRot = 0,-1.32409639E-07,0,1
 		EVENTS
@@ -14291,7 +14291,7 @@ PART
 	part = sepMotor1_4291010374
 	partName = Part
 	persistentId = 3345799209
-	pos = 0.104820162,20.2307205,-1.35619259
+	pos = 0.104820162,20.2992249,-1.35619259
 	attPos = 4.3576506E-08,-0.611717224,0.498457551
 	attPos0 = -1.30999297E-07,-0.988283157,-1.49845755
 	rot = 0,-1,0,1.28773777E-07
@@ -14606,7 +14606,7 @@ PART
 	part = sepMotor1_4291010306
 	partName = Part
 	persistentId = 2352801404
-	pos = 0.104820251,20.2307205,0.643807411
+	pos = 0.104820251,20.2992249,0.643807411
 	attPos = -2.61998593E-07,-0.611717224,-0.498457551
 	attPos0 = 2.61998593E-07,-0.988283157,1.49845755
 	rot = 0,-8.50623891E-08,0,-1
@@ -14619,7 +14619,7 @@ PART
 	istg = 7
 	resPri = 0
 	dstg = 8
-	sidx = 1
+	sidx = 0
 	sqor = 7
 	sepI = 4
 	attm = 1
@@ -14913,7 +14913,7 @@ PART
 	part = KzProcFairingSide2_4290944516
 	partName = Part
 	persistentId = 1389365852
-	pos = 0.104820266,23.0567207,-1.85619259
+	pos = 0.104820266,23.1252232,-1.85619259
 	attPos = 0,0,0
 	attPos0 = 1.49011612E-08,-0.223999977,-1.5
 	rot = 0,0,0,1
@@ -14972,7 +14972,7 @@ PART
 		topRad = 0.629999995
 		inlineHeight = 2.60000014
 		sideThickness = 0.120000005
-		meshPos = (-1.49011612E-08, 0.223999023, 1.5)
+		meshPos = (-1.49011612E-08, 0.224000931, 1.5)
 		meshRot = (0, 0.707106829, 0, 0.707106829)
 		baseAutoShape = True
 		baseCurveStartX = 0.300000012
@@ -15203,7 +15203,7 @@ PART
 	part = KzProcFairingSide2_4290932788
 	partName = Part
 	persistentId = 615110368
-	pos = -1.39517987,23.0567207,-0.356192648
+	pos = -1.39517987,23.1252232,-0.356192678
 	attPos = 0,0,0
 	attPos0 = -1.50000012,-0.223999977,-1.1920929E-07
 	rot = 0,0.707106829,0,0.707106829
@@ -15262,7 +15262,7 @@ PART
 		topRad = 0.629999995
 		inlineHeight = 2.60000014
 		sideThickness = 0.120000005
-		meshPos = (-3.57627727E-07, 0.223999023, 1.49999976)
+		meshPos = (-3.57627727E-07, 0.224000931, 1.49999976)
 		meshRot = (0, 0.707106888, 0, 0.707106769)
 		baseAutoShape = True
 		baseCurveStartX = 0.300000012
@@ -15493,7 +15493,7 @@ PART
 	part = KzProcFairingSide2_4290932344
 	partName = Part
 	persistentId = 914154548
-	pos = 0.104820184,23.0567207,1.14380765
+	pos = 0.104820184,23.1252232,1.14380765
 	attPos = 0,0,0
 	attPos0 = -6.70552254E-08,-0.223999977,1.50000024
 	rot = 0,1,0,-4.37113883E-08
@@ -15552,7 +15552,7 @@ PART
 		topRad = 0.629999995
 		inlineHeight = 2.60000014
 		sideThickness = 0.120000005
-		meshPos = (-1.98189412E-07, 0.223999023, 1.50000024)
+		meshPos = (-1.98189412E-07, 0.224000931, 1.50000024)
 		meshRot = (0, -0.707106709, 0, -0.707106829)
 		baseAutoShape = True
 		baseCurveStartX = 0.300000012
@@ -15783,7 +15783,7 @@ PART
 	part = KzProcFairingSide2_4290931900
 	partName = Part
 	persistentId = 2979450547
-	pos = 1.60482037,23.0567207,-0.356192529
+	pos = 1.60482037,23.1252232,-0.356192559
 	attPos = 0,0,0
 	attPos0 = 1.50000012,-0.223999977,0
 	rot = 0,0.707106829,0,-0.707106829
@@ -15842,7 +15842,7 @@ PART
 		topRad = 0.629999995
 		inlineHeight = 2.60000014
 		sideThickness = 0.120000005
-		meshPos = (2.3841848E-07, 0.223999023, 1.49999976)
+		meshPos = (2.3841848E-07, 0.224000931, 1.49999976)
 		meshRot = (0, -0.707106829, 0, -0.707106829)
 		baseAutoShape = True
 		baseCurveStartX = 0.300000012
@@ -16073,7 +16073,7 @@ PART
 	part = SquadRCSBlockTenth_4292066188
 	partName = Part
 	persistentId = 4234975157
-	pos = 0.105172098,25.984026,0.41850096
+	pos = 0.105172098,26.0525284,0.4185009
 	attPos = 0,0,0
 	attPos0 = 0.000351846218,-0.259771347,0.774693429
 	rot = 0.00168169104,0.707104802,0.00168169104,0.707104802
@@ -16282,7 +16282,7 @@ PART
 	part = SquadRCSBlockTenth_4292066120
 	partName = Part
 	persistentId = 1463924681
-	pos = 0.104468383,25.984026,-1.13088584
+	pos = 0.104468383,26.0525284,-1.13088584
 	attPos = 0,0,0
 	attPos0 = -0.000351913273,-0.259771347,-0.774693489
 	rot = 0.00168169092,0.707104743,-0.00168169115,-0.707104862
@@ -16491,7 +16491,7 @@ PART
 	part = KzProcFairingSide2_4290055882
 	partName = Part
 	persistentId = 2439645159
-	pos = 0.854820311,27.3862286,-0.356192529
+	pos = 0.854820311,27.454731,-0.356192559
 	attPos = 0,0,0
 	attPos0 = 0.75000006,-0.361999512,0
 	rot = 0,0,0,1
@@ -16509,8 +16509,8 @@ PART
 	sepI = 2
 	attm = 0
 	sameVesselCollision = False
-	modCost = 7.3285265
-	modMass = 0.0104106581
+	modCost = 6.80827856
+	modMass = 0.00976034813
 	modSize = 0,0,0
 	sym = KzProcFairingSide2_4290042862
 	attN = connect,KzResizableFairingBaseRing_4292070052_0|0.5|0_0|-1|0_0|0.5|0_0|-1|0
@@ -16544,7 +16544,7 @@ PART
 		baseRad = 0.690000057
 		maxRad = 0.690000057
 		cylStart = 0
-		cylEnd = 0.876000047
+		cylEnd = 0.776000023
 		topRad = 0
 		inlineHeight = 0
 		sideThickness = 0.0600000024
@@ -16779,7 +16779,7 @@ PART
 	part = KzProcFairingSide2_4290042862
 	partName = Part
 	persistentId = 43770725
-	pos = -0.645179808,27.3862286,-0.356192589
+	pos = -0.645179808,27.454731,-0.356192619
 	attPos = 0,0,0
 	attPos0 = -0.75000006,-0.361999512,-5.96046448E-08
 	rot = 0,1,0,-4.37113883E-08
@@ -16797,8 +16797,8 @@ PART
 	sepI = 2
 	attm = 0
 	sameVesselCollision = False
-	modCost = 7.3285265
-	modMass = 0.0104106581
+	modCost = 6.80827856
+	modMass = 0.00976034813
 	modSize = 0,0,0
 	sym = KzProcFairingSide2_4290055882
 	attN = connect,KzResizableFairingBaseRing_4292070052_0|0.5|0_0|-1|0_0|0.5|0_0|-1|0
@@ -16832,7 +16832,7 @@ PART
 		baseRad = 0.690000057
 		maxRad = 0.690000057
 		cylStart = 0
-		cylEnd = 0.876000047
+		cylEnd = 0.776000023
 		topRad = 0
 		inlineHeight = 0
 		sideThickness = 0.0600000024
@@ -17067,7 +17067,7 @@ PART
 	part = KzProcFairingSide1_4291010698
 	partName = Part
 	persistentId = 1555843359
-	pos = 0.104820184,16.3180161,1.14380765
+	pos = 0.104820184,16.3865204,1.14380765
 	attPos = 0,0,0
 	attPos0 = -6.70552254E-08,-0.224000931,1.50000024
 	rot = 0,0,0,1
@@ -17080,7 +17080,7 @@ PART
 	istg = 7
 	resPri = 0
 	dstg = 13
-	sidx = 2
+	sidx = 1
 	sqor = 7
 	sepI = 7
 	attm = 0
@@ -17126,7 +17126,7 @@ PART
 		topRad = 1.38000011
 		inlineHeight = 3.89999986
 		sideThickness = 0.120000005
-		meshPos = (6.70551685E-08, 0.224000931, -1.49999893)
+		meshPos = (6.70552254E-08, 0.223999023, -1.50000024)
 		meshRot = (0, -0.707106829, 0, 0.707106829)
 		baseAutoShape = True
 		baseCurveStartX = 0.300000012
@@ -17357,7 +17357,7 @@ PART
 	part = KzProcFairingSide1_4289402208
 	partName = Part
 	persistentId = 2826146973
-	pos = 1.60482037,16.3180161,-0.356192529
+	pos = 1.60482037,16.3865204,-0.356192559
 	attPos = 0,0,0
 	attPos0 = 1.50000012,-0.224000931,0
 	rot = 0,0.707106829,0,0.707106829
@@ -17370,7 +17370,7 @@ PART
 	istg = 7
 	resPri = 0
 	dstg = 13
-	sidx = 2
+	sidx = 1
 	sqor = 7
 	sepI = 7
 	attm = 0
@@ -17416,7 +17416,7 @@ PART
 		topRad = 1.38000011
 		inlineHeight = 3.89999986
 		sideThickness = 0.120000005
-		meshPos = (2.38418252E-07, 0.224000931, -1.49999833)
+		meshPos = (2.3841848E-07, 0.223999023, -1.49999976)
 		meshRot = (0, -0.707106829, 0, 0.707106829)
 		baseAutoShape = True
 		baseCurveStartX = 0.300000012
@@ -17647,7 +17647,7 @@ PART
 	part = KzProcFairingSide1_4289402102
 	partName = Part
 	persistentId = 3691551449
-	pos = 0.104820266,16.3180161,-1.85619259
+	pos = 0.104820266,16.3865204,-1.85619259
 	attPos = 0,0,0
 	attPos0 = 1.49011612E-08,-0.224000931,-1.5
 	rot = 0,1,0,-4.37113883E-08
@@ -17660,7 +17660,7 @@ PART
 	istg = 7
 	resPri = 0
 	dstg = 13
-	sidx = 2
+	sidx = 1
 	sqor = 7
 	sepI = 7
 	attm = 0
@@ -17706,7 +17706,7 @@ PART
 		topRad = 1.38000011
 		inlineHeight = 3.89999986
 		sideThickness = 0.120000005
-		meshPos = (1.46035191E-07, 0.224000931, -1.49999869)
+		meshPos = (1.46035319E-07, 0.223999023, -1.5)
 		meshRot = (0, -0.707106829, 0, 0.707106709)
 		baseAutoShape = True
 		baseCurveStartX = 0.300000012
@@ -17937,7 +17937,7 @@ PART
 	part = KzProcFairingSide1_4289401996
 	partName = Part
 	persistentId = 1828090689
-	pos = -1.39517987,16.3180161,-0.356192648
+	pos = -1.39517987,16.3865204,-0.356192678
 	attPos = 0,0,0
 	attPos0 = -1.50000012,-0.224000931,-1.1920929E-07
 	rot = 0,0.707106829,0,-0.707106829
@@ -17950,7 +17950,7 @@ PART
 	istg = 7
 	resPri = 0
 	dstg = 13
-	sidx = 2
+	sidx = 1
 	sqor = 7
 	sepI = 7
 	attm = 0
@@ -17996,7 +17996,7 @@ PART
 		topRad = 1.38000011
 		inlineHeight = 3.89999986
 		sideThickness = 0.120000005
-		meshPos = (-1.19209112E-07, 0.224000931, -1.49999833)
+		meshPos = (-1.19209226E-07, 0.223999023, -1.49999976)
 		meshRot = (0, -0.707106769, 0, 0.707106888)
 		baseAutoShape = True
 		baseCurveStartX = 0.300000012
